@@ -19,6 +19,8 @@ public slots:
 signals:
     void resultReady(const QString &result);
     void SigRTRGB(QImage rbg);
+//    void SigRecs(double *vecs);
+    void SigRecs(double rvecs_1, double rvecs_2, double rvecs_3, double tvecs_1, double tvecs_2, double tvecs_3);
 };
 
 #endif // CAMERAWORKER_H

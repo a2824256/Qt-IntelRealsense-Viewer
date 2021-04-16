@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1720</width>
+    <height>900</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>801</width>
-      <height>411</height>
+      <x>10</x>
+      <y>10</y>
+      <width>1280</width>
+      <height>720</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -33,14 +33,37 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>430</y>
+      <x>20</x>
+      <y>790</y>
       <width>271</width>
       <height>101</height>
      </rect>
     </property>
     <property name="text">
      <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>790</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Record marker pose</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>1320</x>
+      <y>10</y>
+      <width>381</width>
+      <height>661</height>
+     </rect>
     </property>
    </widget>
   </widget>

@@ -23,10 +23,10 @@ FORMS += \
 LIBS += 'C:/Program Files (x86)/Intel RealSense SDK 2.0/lib/x64/realsense2.lib'
 INCLUDEPATH += 'C:/Program Files (x86)/Intel RealSense SDK 2.0/include/'
 
-LIBS += -LE:/opencv/opencv/build/x64/vc15/lib/ -lopencv_world451
+LIBS += -LE:/opencv_lib/x64/vc16/lib/ -lopencv_world451
 
-INCLUDEPATH += E:/opencv/opencv/build/include
-DEPENDPATH += E:/opencv/opencv/build/include
+INCLUDEPATH += E:/opencv_lib/include
+DEPENDPATH += E:/opencv_lib/include
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
